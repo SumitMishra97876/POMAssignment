@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-14T11:38:17 IST" name="Suite" finished-at="2021-06-14T11:39:02 IST" duration-ms="45213">
+    <groups>
+    </groups>
+    <test started-at="2021-06-14T11:38:17 IST" name="Test1" finished-at="2021-06-14T11:38:32 IST" duration-ms="14920">
+      <class name="testCases.HomePageSearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.HomePageSearchTest@8297b3a]" started-at="2021-06-14T11:38:17 IST" name="setup" finished-at="2021-06-14T11:38:25 IST" duration-ms="8058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchTest()[pri:0, instance:testCases.HomePageSearchTest@8297b3a]" started-at="2021-06-14T11:38:25 IST" name="searchTest" finished-at="2021-06-14T11:38:31 IST" duration-ms="6140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.HomePageSearchTest@8297b3a]" started-at="2021-06-14T11:38:31 IST" name="tearDown" finished-at="2021-06-14T11:38:32 IST" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.HomePageSearchTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-06-14T11:38:32 IST" name="Test2" finished-at="2021-06-14T11:38:48 IST" duration-ms="15657">
+      <class name="testCases.SearchResPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.SearchResPageTest@13b6aecc]" started-at="2021-06-14T11:38:32 IST" name="setup" finished-at="2021-06-14T11:38:39 IST" duration-ms="6712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="writereviewClickTest()[pri:0, instance:testCases.SearchResPageTest@13b6aecc]" started-at="2021-06-14T11:38:39 IST" name="writereviewClickTest" finished-at="2021-06-14T11:38:47 IST" duration-ms="8237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writereviewClickTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.SearchResPageTest@13b6aecc]" started-at="2021-06-14T11:38:47 IST" name="tearDown" finished-at="2021-06-14T11:38:48 IST" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.SearchResPageTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2021-06-14T11:38:48 IST" name="Test3" finished-at="2021-06-14T11:39:02 IST" duration-ms="14387">
+      <class name="testCases.ReviewPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.ReviewPageTest@58a9760d]" started-at="2021-06-14T11:38:48 IST" name="setup" finished-at="2021-06-14T11:38:53 IST" duration-ms="5125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ratingReviewTest()[pri:0, instance:testCases.ReviewPageTest@58a9760d]" started-at="2021-06-14T11:38:53 IST" name="ratingReviewTest" finished-at="2021-06-14T11:39:01 IST" duration-ms="8560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ratingReviewTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ReviewPageTest@58a9760d]" started-at="2021-06-14T11:39:01 IST" name="tearDown" finished-at="2021-06-14T11:39:02 IST" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.ReviewPageTest -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
