@@ -24,11 +24,11 @@ public class HomePage {
 	
 	public SearchResPage doSearch()
 	{
-	 driver.findElement(search).sendKeys("Club Mahindra");
-		//util.waitForElementPresent(search, 20).sendKeys("Club Mahindra");
+	 //driver.findElement(search).sendKeys("Club Mahindra");
+		util.waitForElementPresent(search, 20).sendKeys("Club Mahindra");
 	 
-	 driver.findElement(searchRes).click();
-	 //util.waitForElementPresent(searchRes, 20).click();
+	 //driver.findElement(searchRes).click();
+	 util.waitForElementPresent(searchRes, 20).click();
 	 return new SearchResPage(driver);
 	}
 	
